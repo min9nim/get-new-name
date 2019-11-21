@@ -1,8 +1,12 @@
 {
   "name": "get-new-name",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/min9nim/get-new-name.git"
+  },  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
