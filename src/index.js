@@ -1,4 +1,4 @@
-exports.getNewName = function getNewName(name, names) {
+module.exports = function getNewName(name, names) {
   if(!names.includes(name)){
     return name
   }
