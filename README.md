@@ -1,5 +1,5 @@
 # get-new-name
-`getNewName` is a function that return unique name from names array.
+`getNewName` is a function that return unique numbered name from names array.
 
 <br>
 
