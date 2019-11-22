@@ -1,7 +1,12 @@
 {
   "name": "get-new-name",
-  "version": "0.0.5",
-  "description": "",
+  "version": "0.0.6",
+  "description": "Get unique new name from names array",
+  "keywords": [
+    "get-new-name",
+    "newname",
+    "unique-name"
+  ],  
   "main": "./src/index.js",
   "repository": {
     "type": "git",
@@ -10,7 +15,7 @@
   "scripts": {
     "test": "mocha test/get-new-name.spec.js"
   },
-  "author": "min9nim",
+  "author": "min9nim <min9nim@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "chai": "^4.2.0",
