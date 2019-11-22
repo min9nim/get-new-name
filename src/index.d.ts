@@ -1,3 +1,4 @@
-declare module "get-new-name" {
-  export function getNewName(name: string, names: string[]): string
+declare module 'get-new-name' {
+  function getNewName(name: string, names: string[]): string
+  export = getNewName
 }
