@@ -2,7 +2,7 @@ module.exports = function getNewName(name, names) {
   if(!names.includes(name)){
     return name
   }
-  const reg = /.+\((\d)\)/
+  const reg = /.+\((\d+)\)/
   let newName = ''
   if(reg.test(name)){
     newName = name.replace(reg, (_, p1) => {
